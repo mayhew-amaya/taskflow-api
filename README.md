@@ -1,14 +1,16 @@
-# TaskFlow API
+TaskFlow is a backend task management API built to practice RESTful service design, data persistence, and service reliability concepts. The project focuses on end-to-end ownership of a backend service, including request validation, database integration, and lifecycle operations such as creation, updates, and deletion of resources.
+The API is implemented using FastAPI and backed by SQLite, with interactive documentation and testing provided through Swagger UI.
 
-TaskFlow is a full-stack task management service designed to explore backend service reliability, automation, and end-to-end ownership. Built with FastAPI and React, focused on reliability and service lifecycle practices.
+Tech Stack:
+Backend: FastAPI (Python)
+Database: SQLite
+ORM: SQLAlchemy
+API Documentation: Swagger (OpenAPI)
+CI/CD: GitHub Actions
 
-## Tech Stack
-- Backend: FastAPI (Python)
-- Frontend: React
-- CI/CD: GitHub Actions
-- Database: SQLite
-
-## Goals
-- Practice designing and deploying backend services
-- Implement basic monitoring and automation
-- Build a clean API consumed by a frontend client
+Project Goals:
+Design and implement a clean RESTful backend API
+Practice data modeling and persistence using SQLite
+Handle request validation, error handling, and status updates
+Gain experience with backend service lifecycle management
+Build a foundation that can later support a frontend client
